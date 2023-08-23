@@ -1,24 +1,96 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<projectDescription>
-	<name>HomePage</name>
-	<comment></comment>
-	<projects>
-	</projects>
-	<buildSpec>
-		<buildCommand>
-			<name>org.eclipse.wst.common.project.facet.core.builder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-		<buildCommand>
-			<name>org.eclipse.wst.validation.validationbuilder</name>
-			<arguments>
-			</arguments>
-		</buildCommand>
-	</buildSpec>
-	<natures>
-		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
-		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
-		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
-	</natures>
-</projectDescription>
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<!--
+  A site following the XHTML 1.0 strict guidelines for Project 1. 
+  Made it based around my packed schedule for the upcoming Autumn semester.
+  @author D. Ndematebem
+-->
+<title>Will I Survive?</title>
+<style type="text/css">
+<!--
+This is for the table to look nice -->table, th, td {
+	border: 1px solid White;
+	border-collapse: collapse;
+}
+
+th, td {
+	background-color: #000000;
+}
+</style>
+</head>
+<body>
+	<h1>A Potentially Possible Schedule</h1>
+	<h4>
+		<a href="https://www.youtube.com/watch?v=E4WlUXrJgy4">Click here
+			to get help with planning your schedule</a>
+	</h4>
+
+	<p>At least, I think my schedule for the fall is manageable...</p>
+	<h2>
+		<img src="PotentialAutumnSched%20-%20Copy.png" width="700"
+			height="600"
+			alt="A jam packed schedule for a Computer Science major, nothing unusual." />
+	</h2>
+	<p>Don't worry, I'll only be in one of the bands in the purple
+		blocks, and I'm also taking ENGLISH 3264 which is asynchronous, but
+		lets list the pros and cons, shall we?</p>
+
+	<h4>Unordered List of Cons</h4>
+	<ul>
+		<li>Can't play Mario Kart Wii in my free time</li>
+		<li>I may burn out</li>
+	</ul>
+
+	<h4>Ordered List of Pros</h4>
+	<ol>
+		<li>The rest of my semesters will be more free</li>
+		<li>Could graduate a year early and save lots of money</li>
+	</ol>
+	<!-- Reference lines 12 to 22 for the general styling of the table.-->
+	<!-- The code bellow just helps it look nicer.-->
+	<table style="border: 1px solid Black;" width="600">
+		<tr style="color: rgb(164, 219, 232);" align="center">
+			<th>CSE Courses</th>
+			<th>Major Requirement</th>
+			<th>General Education</th>
+			<th>For Fun!</th>
+		</tr>
+		<tr style="color: rgb(218, 218, 218);" align="center">
+			<td>CSE 2321</td>
+			<td>ECE 2060</td>
+			<td>GERMAN 3252.02</td>
+			<td>Symphony</td>
+		</tr>
+		<tr style="color: rgb(218, 218, 218);" align="center">
+			<td>CSE 2231</td>
+			<td></td>
+			<td>ENGLISH 3264</td>
+			<td>Top band 1</td>
+		</tr>
+		<tr style="color: rgb(218, 218, 218);" align="center">
+			<td></td>
+			<td></td>
+			<td>GENED 1201</td>
+			<td>Collegiate Winds</td>
+		</tr>
+		<tr style="color: rgb(218, 218, 218);" align="center">
+			<td></td>
+			<td></td>
+			<td></td>
+			<td>Top band 2</td>
+		</tr>
+	</table>
+
+	<p>Just to remind you, I'm only going to be in one of the "For
+		Fun!" bands, the audition is holistic.</p>
+	<p>
+		<a href="http://validator.w3.org/check?uri=referer"><img
+			src="http://www.w3.org/Icons/valid-xhtml10"
+			alt="Valid XHTML 1.0 Strict" height="31" width="88" /></a>
+	</p>
+
+</body>
+</html>
